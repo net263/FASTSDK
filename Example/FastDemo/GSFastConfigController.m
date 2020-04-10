@@ -371,7 +371,7 @@
     sender.userInteractionEnabled = NO;
 
     GSConnectInfo *connectInfo = [GSConnectInfo new];
-#if 1
+#if 0
     connectInfo.domain = [self _fieldText:MO_DOMAIN];
     connectInfo.serviceType = self.serviceType.selectedSegmentIndex == 0?GSBroadcastServiceTypeWebcast:GSBroadcastServiceTypeTraining;
     connectInfo.loginName = [self _fieldText:MO_LOGIN_NAME];
@@ -388,8 +388,8 @@
     //    params.nickName = @"Gensee";
     //    params.vodPassword = @"444444";
     //    bocstudy1.gensee.com/webcast/site/vod/play-5fc0e7df883b40b69b651e62a7f549df
-    connectInfo.domain = @"213.gensee.com";
-    connectInfo.roomNumber = @"59271145";
+    connectInfo.domain = @"product.gensee.com";
+    connectInfo.roomNumber = @"78971428";
 //    connectInfo.webcastID = @"8SyOXLyQDW";
     connectInfo.watchPassword = @"333333";
     connectInfo.nickName = @"support";
@@ -401,8 +401,7 @@
         connectInfo.customUserID = [[self _fieldText:MO_USERID] longLongValue];
     }
     
-    if([self _fieldText:MO_GROUPID].length > 0)
-    {
+    if([self _fieldText:MO_GROUPID].length > 0) {
         connectInfo.groupCode = [self _fieldText:MO_GROUPID];
     }
     connectInfo.userData = @"chenfuwei userdata test";
