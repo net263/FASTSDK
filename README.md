@@ -1,2 +1,49 @@
 # FASTSDK
-FASTSDK 界面SDK
+
+![language](https://img.shields.io/badge/language-Object--C-brightgreen)
+![Version](https://img.shields.io/badge/Version-3.7.10-brightgreen)
+![Platform](https://img.shields.io/badge/Platform-iOS-brightgreen)
+
+## Example
+
+为了使用`Example`工程，请在其`Podfile`文件目录下，运行`pod install`.
+
+## Requirements
+
+ - iOS 8.0或者更高版本
+ - 仅支持ARC
+ - Xcode 8.0或者更高版本
+ - 不支持 bitcode
+ 
+## Installation
+
+FASTSDK 现已可通过 [CocoaPods](https://cocoapods.org) 集成.
+
+集成方式：
+
+由于仓库未更新，可能导致无法找到的问题，请先输入
+
+```c
+pod repo update
+
+//如果你更新之后仍然无法search到最新的sdk版本，请尝试
+rm ~/Library/Caches/CocoaPods/search_index.json
+```
+
+然后进行修改`Podfile`
+
+```ruby
+pod 'FASTSDK'
+```
+## Usage
+
+FASTSDK的使用场景较多，我们公开了一个文档进行介绍：
+
+
+## Author
+
+net263
+
+## To 开发者
+
+sdk仍有很多不足，请无情鞭策，助于我们改进
