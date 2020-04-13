@@ -25,7 +25,6 @@
 		A8490F071E83A2AC005697E6 /* as_three.wav in Resources */ = {isa = PBXBuildFile; fileRef = A8490F041E83A2AC005697E6 /* as_three.wav */; };
 		A8490F081E83A2AC005697E6 /* as_two.wav in Resources */ = {isa = PBXBuildFile; fileRef = A8490F051E83A2AC005697E6 /* as_two.wav */; };
 		C45ACCD2D6CE4E02AD8A0062 /* libPods-FastDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E62B847D48F27E60E50703A /* libPods-FastDemo.a */; };
-		F3560FB0241F325000E0CE9A /* UIViewController+ModalPresentation.m in Sources */ = {isa = PBXBuildFile; fileRef = F3560FAF241F325000E0CE9A /* UIViewController+ModalPresentation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildRule section */
@@ -133,8 +132,6 @@
 		A895A06F1E97362F000F4B6D /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		F337DDEE2182FF5F00613FF4 /* GSDocKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GSDocKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3405D3A22D70AB600E598BE /* GSRewardKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GSRewardKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F3560FAE241F325000E0CE9A /* UIViewController+ModalPresentation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ModalPresentation.h"; sourceTree = "<group>"; };
-		F3560FAF241F325000E0CE9A /* UIViewController+ModalPresentation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ModalPresentation.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -222,8 +219,6 @@
 				04A44A5721108AE800E91A6B /* GSFastNavigationController.m */,
 				04A44A53211088E900E91A6B /* GSFastBaseViewController.h */,
 				04A44A54211088E900E91A6B /* GSFastBaseViewController.m */,
-				F3560FAE241F325000E0CE9A /* UIViewController+ModalPresentation.h */,
-				F3560FAF241F325000E0CE9A /* UIViewController+ModalPresentation.m */,
 				04A448F9211042E900E91A6B /* GSFastConfigController.h */,
 				04A448FA211042E900E91A6B /* GSFastConfigController.m */,
 				04A448FC211060FE00E91A6B /* GSFastPublishController.h */,
@@ -466,7 +461,6 @@
 				04A448F82110412800E91A6B /* UIView+SetRect.m in Sources */,
 				04A448F42110409100E91A6B /* GSTextFieldTitleView.m in Sources */,
 				170F79101E013FDA00D99A76 /* AppDelegate.m in Sources */,
-				F3560FB0241F325000E0CE9A /* UIViewController+ModalPresentation.m in Sources */,
 				04A44A5821108AE800E91A6B /* GSFastNavigationController.m in Sources */,
 				04A448FE211060FE00E91A6B /* GSFastPublishController.m in Sources */,
 				04A44A55211088E900E91A6B /* GSFastBaseViewController.m in Sources */,
