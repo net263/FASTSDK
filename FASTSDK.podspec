@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "FASTSDK"
-  spec.version      = "3.7.9"
+  spec.version      = "3.7.10"
   spec.summary      = "FASTSDK UI SDK , It may not be comprehensive, but it satisfies some users."
 
   spec.description  = <<-DESC
@@ -28,9 +28,9 @@ Pod::Spec.new do |spec|
   spec.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-lObjC' }
   spec.static_framework = true
 
-  spec.dependency 'GSBaseKit'
-  spec.dependency 'RtSDK'
-  spec.dependency 'PlayerSDK'
+  spec.dependency 'GSBaseKit','~> 3.7.10'
+  spec.dependency 'RtSDK','~> 3.7.10'
+  spec.dependency 'PlayerSDK','~> 3.7.10'
   spec.dependency 'MBProgressHUD','~> 1.1.0'
   spec.dependency 'Masonry'
   spec.dependency 'MZTimerLabel'
