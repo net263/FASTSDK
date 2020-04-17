@@ -28,7 +28,6 @@ typedef NS_ENUM(NSInteger, GSFastModuleStyle) {
 /**
  GSFastPopupMenuStyle  -  视频右上角的弹出视图种类
  */
-
 typedef NS_ENUM(NSInteger, GSFastPopupMenuStyle) {
     GSFastPopupMenuNone             = 0,            //未设置
     GSFastPopupMenuFaultReport      = 1 << 0,       //故障报告

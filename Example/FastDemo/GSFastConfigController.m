@@ -371,7 +371,7 @@
     sender.userInteractionEnabled = NO;
 
     GSConnectInfo *connectInfo = [GSConnectInfo new];
-#if 0
+#if 1
     connectInfo.domain = [self _fieldText:MO_DOMAIN];
     connectInfo.serviceType = self.serviceType.selectedSegmentIndex == 0?GSBroadcastServiceTypeWebcast:GSBroadcastServiceTypeTraining;
     connectInfo.loginName = [self _fieldText:MO_LOGIN_NAME];

@@ -302,12 +302,12 @@
         params.seekPosition = [[self _fieldText:MO_SEEK_POSITION] longLongValue];
     }
 #else
-    params.domain = @"213.gensee.com";
+    params.domain = @"192.168.1.134";
     params.serviceType = self.serviceType.selectedSegmentIndex == 0?@"webcast":@"training";;
     //    info.number = @"10142713";
-    params.number = @"34042325";
+    params.number = @"46114390";
     params.nickName = @"Gensee";
-    params.vodPassword = @"444444";
+    params.vodPassword = @"333333";
 //    bocstudy1.gensee.com/webcast/site/vod/play-5fc0e7df883b40b69b651e62a7f549df
 //    params.domain = @"edusoho.gensee.com";
 ////    params.number = @"20207801";

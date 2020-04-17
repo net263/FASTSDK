@@ -80,14 +80,6 @@
 		04C626AE202451520083E8C2 /* YYKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = YYKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E2FD1120EE440D00CF0F3C /* 打赏@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "打赏@2x.png"; sourceTree = "<group>"; };
 		04E2FD1420EF3F9200CF0F3C /* nav_status_wifi@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav_status_wifi@2x.png"; sourceTree = "<group>"; };
-		04FA315320F845A300782DE0 /* libswresample.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libswresample.a; path = ../../../../lib/ios/libswresample.a; sourceTree = "<group>"; };
-		04FA315420F845A300782DE0 /* libswscale.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libswscale.a; path = ../../../../lib/ios/libswscale.a; sourceTree = "<group>"; };
-		04FA315520F845A300782DE0 /* libavutil.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavutil.a; path = ../../../../lib/ios/libavutil.a; sourceTree = "<group>"; };
-		04FA315620F845A300782DE0 /* libavcodec.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavcodec.a; path = ../../../../lib/ios/libavcodec.a; sourceTree = "<group>"; };
-		04FA315720F845A300782DE0 /* libavformat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavformat.a; path = ../../../../lib/ios/libavformat.a; sourceTree = "<group>"; };
-		04FA315D20F845B400782DE0 /* libx264.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libx264.a; path = ../../../../lib/ios/libx264.a; sourceTree = "<group>"; };
-		04FA315E20F845B400782DE0 /* libPlayerSDKLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPlayerSDKLib.a; path = ../../../../lib/ios/libPlayerSDKLib.a; sourceTree = "<group>"; };
-		04FA316720F845BB00782DE0 /* liblibfaad.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblibfaad.a; path = ../../../../lib/ios/offlineplay/liblibfaad.a; sourceTree = "<group>"; };
 		0BF8386C30A87BAB00BA5A24 /* Pods-FastDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-FastDemo/Pods-FastDemo.release.xcconfig"; sourceTree = "<group>"; };
 		170F79081E013FDA00D99A76 /* FastDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		170F790C1E013FDA00D99A76 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -165,29 +157,6 @@
 			path = Tool;
 			sourceTree = "<group>";
 		};
-		04FA315120F8459300782DE0 /* Libs */ = {
-			isa = PBXGroup;
-			children = (
-				04FA316720F845BB00782DE0 /* liblibfaad.a */,
-				04FA315E20F845B400782DE0 /* libPlayerSDKLib.a */,
-				04FA315D20F845B400782DE0 /* libx264.a */,
-				04FA315220F8459800782DE0 /* ffmpeg */,
-			);
-			name = Libs;
-			sourceTree = "<group>";
-		};
-		04FA315220F8459800782DE0 /* ffmpeg */ = {
-			isa = PBXGroup;
-			children = (
-				04FA315620F845A300782DE0 /* libavcodec.a */,
-				04FA315720F845A300782DE0 /* libavformat.a */,
-				04FA315520F845A300782DE0 /* libavutil.a */,
-				04FA315320F845A300782DE0 /* libswresample.a */,
-				04FA315420F845A300782DE0 /* libswscale.a */,
-			);
-			name = ffmpeg;
-			sourceTree = "<group>";
-		};
 		170F78FF1E013FDA00D99A76 = {
 			isa = PBXGroup;
 			children = (
@@ -209,7 +178,6 @@
 		170F790A1E013FDA00D99A76 /* FastDemo */ = {
 			isa = PBXGroup;
 			children = (
-				04FA315120F8459300782DE0 /* Libs */,
 				04A448EE2110402900E91A6B /* UI */,
 				04E2FD1420EF3F9200CF0F3C /* nav_status_wifi@2x.png */,
 				04E2FD1120EE440D00CF0F3C /* 打赏@2x.png */,
